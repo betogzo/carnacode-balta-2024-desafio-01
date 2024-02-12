@@ -1,0 +1,56 @@
+.notifications {
+    padding: 0;
+    margin: rem;
+    list-style-type: none;
+    max-width: 90%;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+}
+
+.notification .icon2 {
+    width: 5rem;
+    height: 4.5rem;
+    background-color: #F6F6F6;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+.notification .content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    width: calc(100% - 2rem - 10px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.notification .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.notification .time {
+    font-size: 1.4rem;
+    color: #BDBDBD;
+    margin: 0;
+    font-weight: 400;
+}
+
+.notification .info {
+    font-size: 1.4rem;
+    color: #333;
+    margin: 5px 0;
+    word-wrap: break-word;
+    font-weight: 400;
+}
+
+.notification .title-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
